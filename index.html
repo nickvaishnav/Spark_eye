@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Incident Map</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>+
+    
+
+<div id="header">
+    <img src="logo1.png" id="logo" alt="Logo">
+    <div id="headline">Real-Time Feeds of Cyber Incidents</div>
+</div>
+
+<div id="map"></div>
+
+<div class="details">
+    <div id="left-panel">
+        <h2>Incident Summary</h2>
+        <p>This section provides a summary of the cyber incidents.</p>
+    </div>
+    <div id="right-panel">
+        <h2>Recent Incidents</h2>
+        <p>List of recent incidents related to the selected area.</p>
+    </div>
+</div>
+
+<div id="bottom-info">
+    <div id="total-attacks">Total Cyber Attacks Today: <span id="attack-count">0</span></div>
+    <h2>Incident Details</h2>
+    <p>Additional information about the selected incident will appear here.</p>
+</div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
+

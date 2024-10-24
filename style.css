@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background: #e0f7fa;
+    border-bottom: 2px solid #00796b;
+}
+#logo {
+    width: 70px;
+}
+#map {
+    flex: 7; /* Increase flex value for more space */
+    height: 100%; /* Adjusted to take full height */
+}
+.details {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: #f9f9f9;
+    border-top: 1px solid #ccc;
+    flex: 1;
+}
+.details > div {
+    width: 30%;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#bottom-info {
+    flex: 1;
+    padding: 10px;
+    background: #f0f0f0;
+    border-top: 1px solid #ccc;
+    text-align: center;
+}
+#total-attacks {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #00796b;
+}
+#headline {
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    background: #e0f7fa;
+    border-bottom: 2px solid #00796b;
+}
